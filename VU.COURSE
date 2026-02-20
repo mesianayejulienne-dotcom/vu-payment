@@ -1,0 +1,41 @@
+cd C:\Users\USER\Documents\NetBeansProjects\vu.pay; "JAVA_HOME=C:\\Program Files\\Java\\jdk-25.0.2" cmd /c "\"C:\\Program Files\\NetBeans-25\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Java\\jdk-25.0.2\\bin\\java.exe\" -Dexec.mainClass=VUCourses -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-25\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec"
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/C:/Program%20Files/NetBeans-25/netbeans/java/maven/lib/jansi-2.4.1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/C:/Program%20Files/NetBeans-25/netbeans/java/maven/lib/guava-33.2.1-jre.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+Scanning for projects...
+
+------------------------< com.mycompany:vu.pay >------------------------
+Building vu.pay 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.3.1:resources (default-resources) @ vu.pay ---
+skip non existing resourceDirectory C:\Users\USER\Documents\NetBeansProjects\vu.pay\src\main\resources
+
+--- compiler:3.13.0:compile (default-compile) @ vu.pay ---
+Recompiling the module because of changed source code.
+Compiling 1 source file with javac [debug release 25] to target\classes
+
+--- exec:3.1.0:exec (default-cli) @ vu.pay ---
+========================================
+       Welcome to VUPay System          
+     Victoria University, Kampala        
+========================================
+Enter Module Code: BIT
+
+--- Course Details ---
+Module Code  : BIT
+Module Name  : BSc. Information Technology
+Tuition (UGX): 750000
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  19.025 s
+Finished at: 2026-02-20T18:04:31-08:00
+------------------------------------------------------------------------
